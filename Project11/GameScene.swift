@@ -4,7 +4,7 @@
 //
 //  Created by Frank Wolff on 24/11/2017.
 //  Copyright © 2017 Frank Wolff. All rights reserved.
-//
+//  Next page: https://www.hackingwithswift.com/read/11/5/collision-detection-skphysicscontactdelegate
 
 import SpriteKit
 import GameplayKit
