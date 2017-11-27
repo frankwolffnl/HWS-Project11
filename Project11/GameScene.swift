@@ -4,8 +4,7 @@
 //
 //  Created by Frank Wolff on 24/11/2017.
 //  Copyright © 2017 Frank Wolff. All rights reserved.
-//  Next page: https://www.hackingwithswift.com/read/11/5/collision-detection-skphysicscontactdelegate
-
+//  Next page: https://www.hackingwithswift.com/read/11/8/wrap-up
 import SpriteKit
 import GameplayKit
 
@@ -79,7 +78,27 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 					box.physicsBody?.isDynamic = false
 					addChild(box)
 				} else {
-					let ball = SKSpriteNode(imageNamed: "ballRed")
+					let randomNumber = RandomInt(min: 0, max: 6)
+					let ballColor: String
+					switch randomNumber {
+					case 0:
+						ballColor = "ballRed"
+					case 1:
+						ballColor = "ballGrey"
+					case 2:
+						ballColor = "ballGreen"
+					case 3:
+						ballColor = "ballPurple"
+					case 4:
+						ballColor = "ballCyan"
+					case 5:
+						ballColor = "ballYellow"
+					case 6:
+						ballColor = "ballBlue"
+					default:
+						ballColor = "ballRed"
+					}
+					let ball = SKSpriteNode(imageNamed: ballColor)
 					ball.name = "ball"
 					ball.physicsBody = SKPhysicsBody(circleOfRadius: ball.size.width / 2.0)
 					ball.physicsBody!.contactTestBitMask = ball.physicsBody!.collisionBitMask
