@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530E80411FCC4EA000E4B568 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E80401FCC4E9F00E4B568 /* Helper.swift */; };
 		53AC6F641FC8AC7400F19B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC6F631FC8AC7400F19B1D /* AppDelegate.swift */; };
 		53AC6F661FC8AC7400F19B1D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53AC6F651FC8AC7400F19B1D /* GameScene.sks */; };
 		53AC6F6A1FC8AC7400F19B1D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC6F691FC8AC7400F19B1D /* GameScene.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		530E80401FCC4E9F00E4B568 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		53AC6F601FC8AC7400F19B1D /* Project11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53AC6F631FC8AC7400F19B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53AC6F651FC8AC7400F19B1D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				53AC6F651FC8AC7400F19B1D /* GameScene.sks */,
 				53AC6F691FC8AC7400F19B1D /* GameScene.swift */,
 				53AC6F6B1FC8AC7400F19B1D /* GameViewController.swift */,
+				530E80401FCC4E9F00E4B568 /* Helper.swift */,
 				53AC6F6D1FC8AC7400F19B1D /* Main.storyboard */,
 				53AC6F7B1FC8AE0200F19B1D /* Content */,
 				53AC6F701FC8AC7400F19B1D /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 				53AC6F6A1FC8AC7400F19B1D /* GameScene.swift in Sources */,
 				53AC6F6C1FC8AC7400F19B1D /* GameViewController.swift in Sources */,
 				53AC6F641FC8AC7400F19B1D /* AppDelegate.swift in Sources */,
+				530E80411FCC4EA000E4B568 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
